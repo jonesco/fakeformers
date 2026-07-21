@@ -68,4 +68,4 @@ The generated prompt is printed for inspection; no files are changed.
 
 The repository contains a lightweight GitHub Pages gallery. It discovers all committed concept-sheet images automatically, and the deployment workflow publishes the gallery every time `main` receives a push.
 
-After the first push, select **GitHub Actions** as the publishing source in the repository’s **Settings → Pages**. The gallery will be available at `https://jonesco.github.io/fakeformers/`.
+The deployment workflow enables GitHub Pages on its first successful run. The gallery will be available at `https://jonesco.github.io/fakeformers/`.
