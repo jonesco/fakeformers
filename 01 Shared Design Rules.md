@@ -133,6 +133,8 @@ This includes paired limbs and all subject-defining repeated components such as:
 
 Wheel count is a hard lock: count the individual wheels in alternate mode, then show exactly those same physical wheels in robot mode. A two-wheeled alternate form must have exactly two robot-mode wheels—never a third decorative wheel at an elbow, shoulder, knee, weapon, or elsewhere. Likewise, a four-wheeled alternate form must account for all four. If the alternate form has no wheels, treads, thrusters, or jets, robot mode must not invent them.
 
+Before rendering any wheeled design, make an internal wheel ledger with one entry for every individual wheel or tire assembly: its alternate-mode location and its one unique robot-mode location. Count the entries again after assigning the robot pose. A wheel may appear in the final robot mode only if it is in this ledger; do not add extra wheel-like details, duplicate a tire on a limb, or render both a folded and deployed version of the same wheel.
+
 Do not merge, duplicate, omit, or cosmetically imitate a counted component.
 
 ## Left, right, front, and rear lock
@@ -265,6 +267,7 @@ Silently verify every item before image generation:
 - The manifest contains meaningful major parts or paired groups, normally 8 to 14.
 - Every major part has a role in both modes.
 - Robot head, torso, arms, legs, feet, hands, and backpack have named sources or storage regions.
+- For a wheeled alternate form, the wheel ledger contains one entry per physical wheel and every visible robot-mode wheel maps to exactly one of those entries.
 - One recognizable signature structure appears in both modes.
 - Component counts match exactly.
 - Individual wheel count has been checked explicitly: a two-wheeled alternate form has exactly two robot-mode wheels, with no extra decorative wheels.
