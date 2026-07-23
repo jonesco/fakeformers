@@ -145,6 +145,12 @@ Left-side parts remain traceably left-side parts and right-side parts remain tra
 
 Keep front and rear structures distinct. Do not mirror unique markings or duplicate an asymmetric feature merely to make the robot symmetrical.
 
+### Paired-component placement
+
+When the alternate form has a true symmetric left-and-right pair, place those two physical parts in matching mirrored positions on the robot. Their attachment surface, height, orientation, scale, and visual prominence should correspond. For example, paired vehicle wheels assigned to shoulders must sit on the outside face of each respective shoulder at the same height and with matching outward-facing orientation.
+
+Do not force this symmetry on a genuinely asymmetric source: an odd wheel count, motorcycle, sidecar, single control station, or other unmatched component must retain its real identity and must not gain an invented mate.
+
 ## Color, material, and marking lock
 
 Color belongs to the physical part, not to the mode.
@@ -266,6 +272,7 @@ Silently verify every item before image generation:
 - One internal parts manifest serves both modes.
 - The manifest contains meaningful major parts or paired groups, normally 8 to 14.
 - Every major part has a role in both modes.
+- Every true left-and-right pair occupies a mirrored robot-mode position; an unmatched source component remains unmatched.
 - Robot head, torso, arms, legs, feet, hands, and backpack have named sources or storage regions.
 - For a wheeled alternate form, the wheel ledger contains one entry per physical wheel and every visible robot-mode wheel maps to exactly one of those entries.
 - One recognizable signature structure appears in both modes.
