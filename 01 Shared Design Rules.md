@@ -25,7 +25,7 @@ Only a selected Finish rule may explicitly permit one small additional accessory
 
 Do not design the two modes separately.
 
-The alternate form is the source body. Robot mode is a rearrangement of its actual physical regions.
+The alternate form is the source of truth and source body. Robot mode is a rearrangement of its actual physical regions; redesign it whenever a shared part will not fit at true alternate-mode proportions.
 
 Before rendering, silently establish one parts manifest shared by both modes. Do not print or label the manifest in the image.
 
